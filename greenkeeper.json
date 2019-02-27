@@ -1,0 +1,33 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "AccountCenter/package.json",
+        "AccountSettings/package.json",
+        "AdvancedForm/package.json",
+        "AdvancedProfile/package.json",
+        "Analysis/package.json",
+        "BasicForm/package.json",
+        "BasicList/package.json",
+        "BasicProfile/package.json",
+        "CardList/package.json",
+        "Exception403/package.json",
+        "Exception404/package.json",
+        "Exception500/package.json",
+        "Monitor/package.json",
+        "ResultFail/package.json",
+        "ResultSuccess/package.json",
+        "SearchListApplications/package.json",
+        "SearchListArticles/package.json",
+        "SearchListProjects/package.json",
+        "StepForm/package.json",
+        "TableList/package.json",
+        "UserLogin/package.json",
+        "UserRegister/package.json",
+        "UserRegisterResult/package.json",
+        "Workplace/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
