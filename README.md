@@ -1,5 +1,7 @@
 # umi-blocks
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ant-design/pro-blocks.svg)](https://greenkeeper.io/)
+
 Official collection of some high quality blocks.
 
 ## Usage
