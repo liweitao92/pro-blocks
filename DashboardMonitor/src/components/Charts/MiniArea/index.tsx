@@ -27,6 +27,8 @@ export interface MiniAreaProps {
     y: number;
   }[];
 }
+// g2 4.0 发布之前只能这样先修一下了
+const FixTypeAxis: any = Axis;
 
 const MiniArea: React.FC<MiniAreaProps> = props => {
   const {
@@ -79,22 +81,22 @@ const MiniArea: React.FC<MiniAreaProps> = props => {
             data={data}
             padding={padding}
           >
-            <Axis
+            <FixTypeAxis
               key="axis-x"
               name="x"
-              label={null}
-              line={null}
-              tickLine={null}
-              grid={null}
+              label={false}
+              line={false}
+              tickLine={false}
+              grid={false}
               {...xAxis}
             />
-            <Axis
+            <FixTypeAxis
               key="axis-y"
               name="y"
-              label={null}
-              line={null}
-              tickLine={null}
-              grid={null}
+              label={false}
+              line={false}
+              tickLine={false}
+              grid={false}
               {...yAxis}
             />
             <Tooltip showTitle={false} crosshairs={false} />
